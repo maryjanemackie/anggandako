@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--  material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     rel="stylesheet">
+
+    <title>GRID</title>
+  <style>
+    header{
+      background-color: lime;
+      min-height: 1000px;
+    }
+  </style>
+</head>
+<body>
+
+    <nav class="nav-wraper pink">
+        <div class="container">
+         <a href="#" class="brand-logo">Amazing Dog</a>
+         <a href="#" class="sidenav-trigger" data-target="mobile-links">
+           <i class="material-icons">menu</i>
+         </a>
+         <ul class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">ContactUs</a></li>
+            <li><a href="#" class="btn-floating indigo darken-4 z-depth-0">
+              <i class="material-icons">notifications</i>
+            </a></li>
+            <li><span class="badge white-text green new">5</span></li>  
+           </ul>
+       </div> 
+    
+      </nav>  
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">ContactUS</a></li>
+        <li><a href="#">notifications</a></li>
+      </ul>
+      <!--fixed action button -->
+    
+      
+      <div class="fixed-action-btn toolbar">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+      <ul>
+          <li>
+           <a class="red" href="Button.html">
+            <i class="material-icons">insert_chart</i>
+          </a>
+         </li>
+         <li>
+          <a class="red" href="IMAGE1/yockie2.jpg">
+            <i class="material-icons">add</i>
+          </a>
+        </li>
+        <li>
+          <a class="red" href="IMAGE1/Yockie1.jpg">
+            <i class="material-icons">favorite_border</i>
+          </a>
+        </li>
+        <li>
+          <a class="red" href="color pallet.html">
+            <i class="material-icons">publish</i>
+          </a>
+        </li>
+        <li> 
+          
+        </ul>
+      </div>
+    
+    <div style="height: 1000px;"><</div> 
+
+
+<body class="lime">
+    <div class="container">
+        <div class="row">
+
+            <div class="col s4">
+              <!-- Promo Content 1 goes here -->
+           <center>  <i class="material-icons large">favorite</i>
+             <strong><p><H5 class="pink text"> What is all about
+
+             </p></strong></H5>
+             <p>
+               <h5>There are over 200 cats and dogs at PARC. all of them have been through cruelty,neglect and pain.
+
+            </center></h5>
+            </div>
+            <div class="col s4">
+              <!-- Promo Content 2 goes here -->
+              <center>  <i class="material-icons large">attach_money</i>
+                <strong><p><H5 class="pink text"> Adoption
+
+                </p></strong></H5>
+                <p>
+                    <H5>To Adopt, select "Adoption" then fill out the forms provided and then click the save button
+
+                </p></H5>
+   
+               </center>
+            </div>
+            <div class="col s4">
+              <!-- Promo Content 3 goes here -->
+              <center>  <i class="material-icons large">assistant</i>
+                <strong><p><H5 class="pink text"> you may send us an email to assist you
+
+                </p></strong></H5>
+                <p>
+                    <h5>when you adopt a pet from us, make sure they have up to date vacination, treated for flicks fleas.
+
+                    all of this will cost between P5,000 to P10,000.
+   
+               </center></h5>
+            </div>
+      
+          </div>
+        
+    </div>
+    
+    
+
+      
+ <!--Jquery CDN-->
+ <script
+ src="https://code.jquery.com/jquery-3.6.1.min.js"
+ integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script 
+ src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+    $(document).ready(function(){
+      // init side nav
+      $('.sidenav').sidenav(); 
+      // init Fixed action button
+     $('.fixed-action-btn').floatingActionButton({
+       toolbarEnabled: true
+     });
+    });
+     
+
+    
+ </script>
+
+</body>
+</html>

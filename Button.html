@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Button and Icons</title>
+  
+</head>
+
+<body class="grey darken-4">
+    <nav class="nav-wraper pink">
+        <div class="container">
+         <a href="#" class="brand-logo">Amazing Dog</a>
+         <a href="#" class="sidenav-trigger" data-target="mobile-links">
+           <i class="material-icons">menu</i>
+         </a>
+         <ul class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">ContactUs</a></li>
+            <li><a href="#">Login</a></li>
+           </ul>
+       </div> 
+    
+      </nav>  
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">ContactUS</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    
+    
+  <div class="container">
+    <h1 class="blue text">Buttons & Icons</h1>
+    <a class="wave-effect wave-light btn red">Button</a>
+    <a class="wave-effect wave-light btn purple">
+        <i class="material-icons left">cloud</i>
+        Button
+    </a>
+    <a class="waves-effect waves-light btn brown">
+        <i class="material-icons right">cloud</i>
+        Button
+    <a class="btn-floating btn-large waves-effect waves-light deep-purple lighten-3">
+     <i class="material-icons">add</i>
+    </a>
+    <br></br>
+    <a class="waves-effect waves-teal btn-flat yellow-text">
+        Button
+    </a>
+    <button class="btn orange wave-effect wave-light" type="submit" name="action">
+     <i class="material-icons right">send</i>    
+        Submit
+    </button>
+    <br></br>
+    <a class="waves-effect waves-light btn-large pink">
+        Button
+    </a>
+<a class="waves-effect waves-light btn-large green"><i class="material-icons left">cloud</i>
+    button
+</a>
+<a class="waves-effect waves-light btn-large blue"><i class="material-icons right">cloud</i>
+    button
+</a>
+<br></br>
+    <a class="waves-effect waves-light btn-small deep-orange">
+        Button
+    </a>
+<a class="waves-effect waves-light btn-small deep-purple"><i class="material-icons left">cloud</i>
+    button
+</a>
+<a class="waves-effect waves-light btn-small yellow blue-text"><i class="material-icons right">cloud</i>
+    button
+</a>
+<br></br>
+<a class="btn-large disabled">Button</a>
+<a class="btn disabled">Button</a>
+<a class="btn-flat disabled">Button</a>
+<a class="btn-floating disabled"><i class="material-icons">add</i>
+</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script 
+ src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();  
+    })
+ </script>
+
+</body>
+</html>
